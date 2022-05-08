@@ -23,7 +23,7 @@ cd Python-3.9.12
 sudo ./configure --enable-optimizations 
 sudo make altinstall
 cd ..
-sudo rm Python-3.9.12.tgz
+sudo rm -fr Python-3.9*
 
 # Verify installation
 python3.9 -V
