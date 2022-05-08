@@ -8,6 +8,7 @@ read -p "Enter name: " name
 
 git config --global user.email "$email"
 git config --global user.name "$name"
+git config --global push.default simple
 
 # Setup new ssh key for GitHub
 ssh-keygen -q -t rsa -N '' -f ~/.ssh/id_rsa <<<y >/dev/null 2>&1
