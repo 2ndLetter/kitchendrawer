@@ -22,6 +22,7 @@ tar xzf Python-3.9.12.tgz
 cd Python-3.9.12
 sudo ./configure --enable-optimizations 
 sudo make altinstall
+cd ..
 sudo rm Python-3.9.12.tgz
 
 # Verify installation
