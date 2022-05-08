@@ -29,3 +29,5 @@ python3.9 -V
 
 # Cat public key for adding to GitHub
 cat ~/.ssh/id_rsa.pub
+
+echo "Ensure you add your new public key to your GitHub account!"
